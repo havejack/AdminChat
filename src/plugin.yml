@@ -1,0 +1,11 @@
+name: AdminChat
+main: com.ammar.bukkit.adminonly.AdminChat
+version: 0.1
+author: ammaraskar
+description: >
+             Talk with other admins privately
+commands:
+  amsg:
+    description: Talk with other admins privately
+    usage: |
+            /amsg message
