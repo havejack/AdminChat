@@ -16,7 +16,7 @@ public class AdminChat extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-		this.getCommand("amsg").setExecutor(new AdminChatCommand(this));
+		this.getCommand("a").setExecutor(new AdminChatCommand(this));
         PluginDescriptionFile pdfFile = this.getDescription();
         System.out.println( pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!" );
 	}
