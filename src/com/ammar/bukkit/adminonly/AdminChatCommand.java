@@ -30,7 +30,7 @@ public class AdminChatCommand implements CommandExecutor {
     	final Player player = (Player) sender;
         if ((sender instanceof Player) && Perms.canSend((Player) sender) || player.isOp()){
         	if (args.length < 1) {
-        		player.sendMessage(ChatColor.RED + "Usage: /amsg <message>");
+        		player.sendMessage(ChatColor.RED + "Usage: /a <message>");
         	}
         	else{
         		String playername = player.getName();
